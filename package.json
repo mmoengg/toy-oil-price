@@ -1,0 +1,23 @@
+{
+	"dependencies": {
+		"next": "^15.1.3",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"name": "toy-oil-price",
+	"description": "",
+	"version": "1.0.0",
+	"main": "index.js",
+	"devDependencies": {
+		"@types/node": "22.10.5",
+		"@types/react": "19.0.2",
+		"typescript": "5.7.2"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "next dev",
+		"build": "next build"
+	},
+	"author": "",
+	"license": "ISC"
+}
