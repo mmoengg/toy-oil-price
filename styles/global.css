@@ -130,6 +130,12 @@ table {
 	border-spacing: 0;
 }
 body {
+	font-family: 'Pretendard', sans-serif;
+	letter-spacing: -0.5px;
+	background-color: #fff;
+	color: #000;
+}
+.container {
 	padding-top: 100px;
 	font-family: 'Pretendard', sans-serif;
 	letter-spacing: -0.5px;
