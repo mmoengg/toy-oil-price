@@ -1,0 +1,18 @@
+.container {
+	width: 100%;
+	height: calc(100vh - 373px);
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.title_wrap {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.title {
+	font-size: 32px;
+}

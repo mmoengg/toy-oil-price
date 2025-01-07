@@ -1,4 +1,4 @@
-import styles from '../styles/home/home-mypage.module.css';
+import styles from '../../styles/home/home-mypage.module.css';
 
 export default function HomeMypage() {
 	return (
@@ -23,7 +23,7 @@ export default function HomeMypage() {
 				<li>
 					<div className={styles.oil_icon}></div>
 					<div className={styles.info_box}>
-						<div className={styles.info_text}>+4.6</div>
+						<div className={styles.info_text}>+4.61</div>
 						<div className={styles.info_title}>전날 대비</div>
 					</div>
 				</li>

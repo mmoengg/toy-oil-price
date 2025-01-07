@@ -21,7 +21,6 @@
 	flex-direction: column;
 	align-items: start;
 	justify-content: start;
-	background-color: rgb(253, 233, 233);
 }
 .right {
 	width: 35%;
@@ -30,5 +29,4 @@
 	flex-direction: column;
 	align-items: start;
 	justify-content: start;
-	background-color: rgb(204, 204, 215);
 }

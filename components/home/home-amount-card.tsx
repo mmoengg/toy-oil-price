@@ -1,4 +1,4 @@
-import styles from '../styles/home/home-amount-card.module.css';
+import styles from '../../styles/home/home-amount-card.module.css';
 
 export default function HomeAmountCard() {
 	return (

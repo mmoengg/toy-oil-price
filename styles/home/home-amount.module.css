@@ -49,6 +49,10 @@
 	flex-direction: column;
 	gap: 40px;
 }
+.amount_wrap::-webkit-scrollbar {
+	width: 0px;
+}
+
 .amount_box {
 	width: 100%;
 	display: flex;

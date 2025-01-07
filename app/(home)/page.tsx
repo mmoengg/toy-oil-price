@@ -1,5 +1,7 @@
-import HomeAmount from '../../components/home-amount';
-import HomeMypage from '../../components/home-mypage';
+import HomeAmount from '../../components/home/home-amount';
+import HomeFluctuations from '../../components/home/home-fluctuations';
+import HomeMypage from '../../components/home/home-mypage';
+import HomeNews from '../../components/home/home-news';
 import OilInfo from '../../components/oil-info';
 import styles from '../../styles/home/home.module.css';
 import { API_URL } from '../contants';
@@ -111,9 +113,12 @@ export default async function Page() {
 				<HomeMypage />
 				<HomeAmount />
 			</div>
-			<div className={styles.center}></div>
-			<div className={styles.right}></div>
-			{/* <OilInfo oilData={oils} /> */}
+			<div className={styles.center}>
+				<HomeFluctuations />
+			</div>
+			<div className={styles.right}>
+				<HomeNews />
+			</div>
 		</div>
 	);
 }
