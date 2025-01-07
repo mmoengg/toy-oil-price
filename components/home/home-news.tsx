@@ -7,7 +7,16 @@ export default function HomeNews() {
 			<div className={styles.title_wrap}>
 				<h2 className={styles.title}>뉴스</h2>
 			</div>
-			<div>
+			<div className={styles.news_wrap}>
+				<HomeNewsCard />
+				<HomeNewsCard />
+				<HomeNewsCard />
+				<HomeNewsCard />
+				<HomeNewsCard />
+				<HomeNewsCard />
+				<HomeNewsCard />
+				<HomeNewsCard />
+				<HomeNewsCard />
 				<HomeNewsCard />
 			</div>
 		</div>

@@ -50,7 +50,7 @@
 	gap: 40px;
 }
 .amount_wrap::-webkit-scrollbar {
-	width: 0px;
+	display: none;
 }
 
 .amount_box {
