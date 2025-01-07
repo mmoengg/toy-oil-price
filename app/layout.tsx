@@ -1,4 +1,5 @@
 import '../styles/global.css';
+import '../styles/fonts.css';
 import { Metadata } from 'next';
 import Navigation from '../components/navigation';
 
