@@ -1,5 +1,6 @@
 .container {
 	width: 100%;
+	min-width: 320px;
 	max-width: 460px;
 	padding: 40px;
 	border-right: 1px solid #e6e6e6;

@@ -1,6 +1,7 @@
+import HomeAmount from '../../components/home-amount';
 import HomeMypage from '../../components/home-mypage';
 import OilInfo from '../../components/oil-info';
-import styles from '../../styles/home.module.css';
+import styles from '../../styles/home/home.module.css';
 import { API_URL } from '../contants';
 import { parseStringPromise } from 'xml2js';
 
@@ -106,7 +107,12 @@ export default async function Page() {
 	console.log(oils);
 	return (
 		<div className={styles.container}>
-			<HomeMypage />
+			<div className={styles.left}>
+				<HomeMypage />
+				<HomeAmount />
+			</div>
+			<div className={styles.center}></div>
+			<div className={styles.right}></div>
 			{/* <OilInfo oilData={oils} /> */}
 		</div>
 	);
