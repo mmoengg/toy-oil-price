@@ -5,26 +5,27 @@ import { useRouter } from 'next/navigation';
 import { auth } from '../app/firebase';
 
 export default function ProtectedRoute({ children }: { children: React.ReactNode }) {
-	const router = useRouter();
-	const [loading, setLoading] = useState(true);
+	// const router = useRouter();
+	// const [loading, setLoading] = useState(true);
 
-	useEffect(() => {
-		const unsubscribe = auth.onAuthStateChanged((user) => {
-			if (!user) {
-				router.push('/login');
-			} else {
-				setLoading(false);
-			}
-		});
+	// useEffect(() => {
+	// const unsubscribe = auth.onAuthStateChanged((user) => {
+	// 	if (!user) {
+	// 		router.push('/login');
+	// 	} else {
+	// 		setLoading(false);
+	// 	}
+	// });
 
-		return () => unsubscribe();
-	}, [router]);
+	// return () => unsubscribe();
+	// }, [router]);
 
 	// if (loading) {
 	// 	return <div>Loading...</div>;
 	// }
 
 	return children;
+
 }
 
 // 'use client';

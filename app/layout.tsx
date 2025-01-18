@@ -18,8 +18,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
 	return (
 		<html lang='en'>
-			<body className={user ? 'container' : ''}>
-				{user && <Navigation />}
+			<body className={'container'}>
+				<Navigation />
 				<ProtectedRoute>{children}</ProtectedRoute>
 			</body>
 		</html>
